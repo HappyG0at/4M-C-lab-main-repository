@@ -20,17 +20,18 @@
 
         .big4 {
             display: inline;
-            margin: 60px;
+            margin-left: 60px;
+            margin-right: 60px;
+            margin-top: auto;
+            margin-bottom: auto;
             border: 1px solid black;
             padding: 10px;
-            padding-left: 20px;
-            padding-right: 20px;
+            width: 200px;
 
         }
 
         .bigBoxes {
             border: 1px solid black;
-            padding: 10px;
             margin: 10px;
         }
 
@@ -39,10 +40,6 @@
             margin-left: 0px;
             margin-right: 0px;
             background-color: lightgrey;
-        }
-
-        #picture {
-            display: flex;
         }
 
         .container {
@@ -60,8 +57,21 @@
             border-Right: 1px solid black;
             padding: 15px;
         }
+
         #basicBookInfo {
             margin-left: 20px;
+        }
+
+        #buy {
+            border: white;
+            color: black;
+            background-color: white;
+            width: 100px;
+        }
+
+        button:hover {
+            background-color: black;
+            color: white;
         }
     </style>
 </head>
@@ -72,24 +82,36 @@
     </h1>
     <div class="bigBoxes">
         <center>
-            <h2 class="big4">티미의 책방이란</h2>
-            <h2 class="big4">Already Read</h2>
-            <h2 class="big4">Yet to Read</h2>
-            <h2 class="big4">About 티미</h2>
+
+            <button class="big4">
+                <h2>티미의 책방이란</h2>
+            </button>
+            <button class="big4">
+                <h2>Already Read</h2>
+            </button>
+            <button class="big4">
+                <h2>Yet to Read</h2>
+            </button>
+            <button class="big4">
+                <h2>About 티미</h2>
+            </button>
+
         </center>
     </div>
     <div class="bigBoxes" id="rotatingBooks">
 
         <div class="container">
-            <img src="./71DMt113sML.jpg" width="300px;" id="picture">
+            <img src="./71DMt113sML.jpg" width="300px;">
             <div id="basicBookInfo">
                 <center>
                     <h1>Title</h1>
                     <h3 id="SubTitle">Sub Title</h3>
                     <div id="oneSentenceReview">
                         <h4>one sentence review</h4>
-                        <button><h4>구매하기</h4></button>
                     </div>
+                    <button id="buy">
+                        <h4 id="buyBooks">구매하기</h4>
+                    </button>
 
                 </center>
 
