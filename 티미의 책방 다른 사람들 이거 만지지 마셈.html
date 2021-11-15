@@ -19,15 +19,21 @@
         }
 
         .big4 {
+
             display: inline;
             margin-left: 60px;
             margin-right: 60px;
-            margin-top: auto;
-            margin-bottom: auto;
-            border: 1px solid black;
-            padding: 10px;
+            margin-top: 1;
+            margin-bottom: 1;
+            padding: 0;
             width: 200px;
-
+            border: 0px solid white;
+            color: black;
+            background-color: white;
+        }
+        .big4Effect button:hover{
+            background-color: black;
+            color: white;
         }
 
         .bigBoxes {
@@ -46,6 +52,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            padding: 25px;
         }
 
         #SubTitle {
@@ -67,9 +74,10 @@
             color: black;
             background-color: white;
             width: 100px;
+            border-radius: 100px;
         }
 
-        button:hover {
+        #buyEffect button:hover {
             background-color: black;
             color: white;
         }
@@ -81,21 +89,21 @@
         <CENTER>티미의 책방</CENTER>
     </h1>
     <div class="bigBoxes">
-        <center>
-
-            <button class="big4">
-                <h2>티미의 책방이란</h2>
-            </button>
-            <button class="big4">
-                <h2>Already Read</h2>
-            </button>
-            <button class="big4">
-                <h2>Yet to Read</h2>
-            </button>
-            <button class="big4">
-                <h2>About 티미</h2>
-            </button>
-
+        <center class="big4Effect">
+            
+                <button class="big4">
+                    <h2>티미의 책방이란</h2>
+                </button>
+                <button class="big4">
+                    <h2>Already Read</h2>
+                </button>
+                <button class="big4">
+                    <h2>Yet to Read</h2>
+                </button>
+                <button class="big4">
+                    <h2>About 티미</h2>
+                </button>
+            
         </center>
     </div>
     <div class="bigBoxes" id="rotatingBooks">
@@ -109,9 +117,11 @@
                     <div id="oneSentenceReview">
                         <h4>one sentence review</h4>
                     </div>
-                    <button id="buy">
-                        <h4 id="buyBooks">구매하기</h4>
-                    </button>
+                    <div id="buyEffect">
+                        <button id="buy">
+                            <h4>구매하기</h4>
+                        </button>
+                    </div>
 
                 </center>
 
@@ -121,6 +131,7 @@
         </div>
 
     </div>
+    <div class="bigBoxes"> njknj</div>
 </body>
 
 </html>
