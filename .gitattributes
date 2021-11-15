@@ -1,3 +1,2 @@
-hello happy goat
-파이 안녕하세요
-드림 안녕하세요
+# Auto detect text files and perform LF normalization
+* text=auto
