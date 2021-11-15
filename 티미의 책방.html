@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: 'Pretendard-Regular';
+            src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        body {
+            font-family: 'Pretendard-Regular';
+        }
+
+        .big4 {
+            display: inline;
+            margin: 60px;
+            border: 1px solid black;
+            padding: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+
+        }
+
+        .bigBoxes {
+            border: 1px solid black;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        #rotatingBooks {
+            height: 500px;
+            margin-left: 0px;
+            margin-right: 0px;
+            background-color: lightgrey;
+        }
+
+        #picture {
+            display: flex;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #SubTitle {
+            margin-bottom: 50px;
+        }
+
+        #oneSentenceReview {
+            border-left: 1px solid black;
+            border-Right: 1px solid black;
+            padding: 15px;
+        }
+        #basicBookInfo {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        <CENTER>티미의 책방</CENTER>
+    </h1>
+    <div class="bigBoxes">
+        <center>
+            <h2 class="big4">티미의 책방이란</h2>
+            <h2 class="big4">Already Read</h2>
+            <h2 class="big4">Yet to Read</h2>
+            <h2 class="big4">About 티미</h2>
+        </center>
+    </div>
+    <div class="bigBoxes" id="rotatingBooks">
+
+        <div class="container">
+            <img src="./71DMt113sML.jpg" width="300px;" id="picture">
+            <div id="basicBookInfo">
+                <center>
+                    <h1>Title</h1>
+                    <h3 id="SubTitle">Sub Title</h3>
+                    <div id="oneSentenceReview">
+                        <h4>one sentence review</h4>
+                    </div>
+
+                </center>
+
+            </div>
+
+
+        </div>
+
+    </div>
+</body>
+
+</html>
