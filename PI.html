@@ -7,7 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>파이 소개서</title>
     <style>
-        <!-- mt(메인 타이틀), pf(프로필), sw(식스워드), mv(모티베이트), ppb(펄스널 페이지 버튼) bef(버튼 이펙트)-->
+        /* mt:메인 타이틀, pf:프로필, sw:식스워드, mv:모티베이트, ppb:펄스널 페이지 버튼 bef:버튼 이펙트 */
+
+        @font-face {
+            font-family: 'Pretendard-Regular';
+            src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        body {
+            font-family: 'Pretendard-Regular';
+        }
+
         .mt {
             border: 1px solid black;
         }
@@ -27,7 +39,7 @@
             margin-top: 20px;
         }
 
-        .ppb{
+        .ppb {
             width: 100px;
             height: 70px;
             background-color: white;
@@ -35,7 +47,7 @@
             border: 1px solid black;
         }
 
-        .bef button:hover{
+        .bef button:hover {
             background-color: black;
             color: white;
 
@@ -56,7 +68,7 @@
     <center>
         <div class="bef">
             <a href="../개인 홈페이지.html">
-            <button class="ppb">PI's 웹사이트</button>
+                <button class="ppb">PI's 웹사이트</button>
             </a>
         </div>
     </center>
