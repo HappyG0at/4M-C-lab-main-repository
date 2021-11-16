@@ -1,0 +1,64 @@
+
+
+        @font-face {
+            font-family: 'Pretendard-Regular';
+            src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        body {
+            font-family: 'Pretendard-Regular';
+        }
+
+        #teamName {
+            font-size: 40px;
+            display: inline;
+        }
+
+        .big4 {
+            display: inline;
+            margin: 50px;
+            font-size: 30px;
+        }
+
+        .Intro {
+            width: 500px;
+            font-size: 30px;
+        }
+
+        .InfoBoxes {
+            margin: 5px;
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+
+        }
+
+        .mb {
+            width: 280px;
+    height: 50px;
+    background-color: white;
+    border: white;
+    color: #281b6b;
+    box-shadow: 0 8px 0px rgba(0, 79, 255, 1);
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: 0.3s;
+    margin: 25px;
+        }
+
+
+        .mbe button:hover {
+            background-color: #281b6b;
+    border: #281b6b;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 79, 255, 0.5);
+        }
+
+        .mb {
+            background-color: white;
+            color: #281b6b;
+
+        }
