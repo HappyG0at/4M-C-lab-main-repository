@@ -18,8 +18,9 @@
 
         .big4 {
             display: inline;
-            margin: 50px;
-            font-size: 30px;
+            margin: 30px;
+            font-size: 15px;
+            font-weight: bold;
         }
 
         .Intro {
@@ -36,14 +37,12 @@
         }
 
         .mb {
-            width: 280px;
+            width: 160px;
     height: 50px;
     background-color: white;
     border: white;
-    color: #281b6b;
-    box-shadow: 0 8px 0px rgba(0, 79, 255, 1);
-    font-size: 16px;
-    font-weight: bold;
+    color: rgb(7, 9, 83);
+    box-shadow: 0 8px 0px rgba(7, 9, 83, 1);
     border-radius: 20px;
     transition: 0.3s;
     margin: 25px;
@@ -51,10 +50,10 @@
 
 
         .mbe button:hover {
-            background-color: #281b6b;
-    border: #281b6b;
+            background-color: rgb(7, 9, 83);
+    border: rgb(7, 9, 83);
     color: white;
-    box-shadow: 0 2px 4px rgba(0, 79, 255, 0.5);
+    box-shadow: 0 2px 4px rgba(7, 9, 83, 0.5);
         }
 
         .mb {
@@ -62,3 +61,4 @@
             color: #281b6b;
 
         }
+        #logo{height: 100px; width: 100px;}
