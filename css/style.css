@@ -9,6 +9,7 @@
 
         body {
             font-family: 'Pretendard-Regular';
+            margin: 0;
         }
 
         #teamName {
@@ -62,3 +63,33 @@
 
         }
         #logo{height: 100px; width: 100px;}
+
+        
+        .search{
+            height: 40px;
+            width: 200px;
+            border-bottom: 2px solid rgb(7, 9, 83);
+            background: white;
+        }
+        .input{
+            font-size:16px;
+            width: 150px;
+            padding: 10px;
+            border: 0px;
+            outline: none;
+            float: left;
+        }
+        .sb{
+            width: 50px;
+            height: 40;
+            border: 1px solid white;
+            outline: none;
+            float: right;
+            background-color: white;
+        }
+        .sb button:hover{
+            border: 1px solid rgb(7, 9, 83);
+        }
+        :-ms-input-placeholder {color: rgb(7, 9, 83);}
+        ::-webkit-input-placeholder {color: rgb(7, 9, 83);}
+        :-moz-placeholder {color: rgb(7, 9, 83);}
