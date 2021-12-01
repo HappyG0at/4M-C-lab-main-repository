@@ -1,0 +1,42 @@
+body{
+  margin: 0px;
+}
+.infobox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.search{
+    height: 40px;
+    width: 200px;
+    border: 2px solid rgb(7, 9, 83);
+    background: white;
+    display: flex;
+    align-content: center;
+  justify-content: center;
+}
+
+.searchbox{
+  font-size: 12px;
+  width: 150px;
+  border: 0px;
+  outline: none;
+  text-align: center;
+}
+.searchbutton{
+  color: white;
+  border: 2px solid rgb(7, 9, 83);
+  width: 50px;
+  height: 40px;
+  outline: none;
+  background-color: rgb(7, 9, 83);
+}
+.sb button:hover{
+  border: 1px solid rgb(7, 9, 83);
+}
+:-ms-input-placeholder {color: rgb(7, 9, 83);}
+::-webkit-input-placeholder {color: rgb(7, 9, 83);}
+:-moz-placeholder {color: rgb(7, 9, 83);}
