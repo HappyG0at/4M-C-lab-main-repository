@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>teamsheet</title>
+  <link rel="stylesheet" href="css/teamsheet.css">
+  <script src="https://kit.fontawesome.com/ae5a707f15.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="infobox">
+    <div class="intros" data-name="1">팀 소개</div>
+    <div class="intros" data-name="2">팀원 소개</div>
+    <div class="intros" id="mainTitle">WLB</div>
+    <div class="intros" data-name="3">프로젝트 소개</div>
+    <div class="intros" data-name="4">타임라인 소개</div>
+  </div>
+  <section class="hidden">
+    <div>
+      <div>thing1</div>
+      <div>thing1</div>
+      <div>thing1</div>
+      <div>thing1</div>
+    </div>
+  </section>
+  <section class="hidden">
+    <div>
+      <div>thing2</div>
+      <div>thing2</div>
+      <div>thing2</div>
+      <div>thing2</div>
+    </div>
+  </section>
+  <section class="hidden">
+    <div>
+      <div>thing3</div>
+      <div>thing3</div>
+      <div>thing3</div>
+      <div>thing3</div>
+    </div>
+  </section>
+  <section class="hidden">
+    <div>
+      <div>thing4</div>
+      <div>thing4</div>
+      <div>thing4</div>
+      <div>thing4</div>
+    </div>
+  </section>
+
+  <script>
+    let sectionContents = document.getElementsByTagName('section')
+    let menu = document.getElementsByClassName('infobox')[0]
+    let currentMenu;
+    let arr = [data-name == '1',"data-name == '2'","data-name == '3'","data-name == '4'"]
+
+    console.log(arr)
+
+    console.log(sectionContents)
+
+    function onMouseOver(e) {
+      console.log(e.target.getAttribute('data-name'));
+      var dataName = e.target.getAttribute('data-name');
+
+      if (currentMenu) {
+        currentMenu.classList.add('hidden')
+      }
+      if (dataName == "1") {
+        console.log('없어져라!')
+        console.log(sectionContents[0])
+        sectionContents[0].classList.remove('hidden')
+        currentMenu = sectionContents[0]
+        console.log(currentMenu)
+      }
+      if (dataName == "2") {
+        console.log('없어져라!')
+        console.log(sectionContents[1])
+        sectionContents[1].classList.remove('hidden')
+        currentMenu = sectionContents[1]
+        console.log(currentMenu)
+      }
+      if (dataName == "3") {
+        console.log('없어져라!')
+        console.log(sectionContents[2])
+        sectionContents[2].classList.remove('hidden')
+        currentMenu = sectionContents[2]
+        console.log(currentMenu)
+      }
+      if (dataName == "4") {
+        console.log('없어져라!')
+        console.log(sectionContents[3])
+        sectionContents[3].classList.remove('hidden')
+        currentMenu = sectionContents[3]
+        console.log(currentMenu)
+      }
+      if ('mouseover' !== sectionContents[0,1,2,3]) {
+        setTimeout(
+          function () {
+            console.log('yes')
+              console.log('yes2')
+              currentMenu.classList.add('hidden')
+          }, 5000);
+      }
+    }
+
+    menu.addEventListener('mouseover', onMouseOver)
+
+  </script>
+</body>
+
+</html>
