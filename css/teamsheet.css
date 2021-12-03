@@ -61,6 +61,7 @@ body{
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   z-index: 100;
   position:fixed;
+  background-color: white;
 }
 .subnav {
   height: 100%;
