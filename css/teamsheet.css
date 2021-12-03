@@ -49,6 +49,11 @@ body{
   max-width: 200px;
   text-align: center;
   align-self: center;
+  color: black;
+}
+a:link {
+  color : black;
+  text-decoration-line: none;
 }
 .intros {
   width: 12em;
@@ -60,4 +65,27 @@ body{
 }
 .hidden {
   display: none;
+}
+
+.menuInfo {
+  background-color:skyblue;
+}
+.hiddenInfo {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#MV{
+  /* z-index: -100;
+  position: absolute; */
+  width: 150vw;
+  height: 150vw;
+}
+#VB{
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 550px;
+  overflow: hidden;
 }

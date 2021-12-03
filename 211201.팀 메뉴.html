@@ -14,99 +14,81 @@
   <div class="infobox">
     <div class="intros" data-name="1">팀 소개</div>
     <div class="intros" data-name="2">팀원 소개</div>
-    <div class="intros" id="mainTitle">WLB</div>
+    <div class="intros" id="mainTitle"><a
+        href="http://127.0.0.1:5500/4M-C-lab-main-repository/211201.팀%20메뉴.html">WLB</a></div>
     <div class="intros" data-name="3">프로젝트 소개</div>
     <div class="intros" data-name="4">타임라인 소개</div>
   </div>
-  <section class="hidden">
-    <div>
-      <div>thing1</div>
-      <div>thing1</div>
-      <div>thing1</div>
-      <div>thing1</div>
+  <section class="hidden menuInfo">
+    <div class="hiddenInfo">
+      <div >팀소개1</div>
+      <div>팀소개2</div>
+      <div>팀소개3</div>
+      <div>팀소개4</div>
     </div>
   </section>
-  <section class="hidden">
-    <div>
-      <div>thing2</div>
-      <div>thing2</div>
-      <div>thing2</div>
-      <div>thing2</div>
+  <section class="hidden menuInfo">
+    <div class="hiddenInfo">
+      <div>파이</div>
+      <div>티미</div>
+      <div>로하</div>
+      <div>드림</div>
     </div>
   </section>
-  <section class="hidden">
-    <div>
-      <div>thing3</div>
-      <div>thing3</div>
-      <div>thing3</div>
-      <div>thing3</div>
+  <section class="hidden menuInfo">
+    <div class="hiddenInfo">
+      <div>세계 건출물로 보는 문화 다양성</div>
+      <div>성역할고정관념</div>
+      <div>온라인 수업을 심화된 교육격차</div>
+      <div>선정적 광고</div>
     </div>
   </section>
-  <section class="hidden">
-    <div>
-      <div>thing4</div>
-      <div>thing4</div>
-      <div>thing4</div>
-      <div>thing4</div>
+  <section class="hidden menuInfo">
+    <div class="hiddenInfo">
+      <div>1모듈</div>
+      <div>2모듈</div>
+      <div>3모듈</div>
+      <div>4모듈</div>
     </div>
   </section>
+  <div id="VB">
+    <iframe id="MV"
+      src="https://player.vimeo.com/video/427031436?title=0&muted=1&autoplay=1&autopause=0&controls=0&loop=1&background=1&app_id=122963&autoplay=1"
+      frameborder="0"></iframe>
+  </div>
 
   <script>
     let sectionContents = document.getElementsByTagName('section')
     let menu = document.getElementsByClassName('infobox')[0]
     let currentMenu;
-    let arr = ["data-name == '1'","data-name == '2'","data-name == '3'","data-name == '4'"]
+    const dict = { "1": 1, "2": 2, "3": 3, "4": 4 }
 
-    console.log(arr)
+    console.log(typeof (dict[1]))
 
     console.log(sectionContents)
 
     function onMouseOver(e) {
-      console.log(e.target.getAttribute('data-name'));
+      console.log(typeof (e.target.getAttribute('data-name')));
       var dataName = e.target.getAttribute('data-name');
 
       if (currentMenu) {
+        console.log("yas")
         currentMenu.classList.add('hidden')
       }
-      if (dataName == "1") {
-        console.log('없어져라!')
-        console.log(sectionContents[0])
-        sectionContents[0].classList.remove('hidden')
-        currentMenu = sectionContents[0]
-        console.log(currentMenu)
-      }
-      if (dataName == "2") {
-        console.log('없어져라!')
-        console.log(sectionContents[1])
-        sectionContents[1].classList.remove('hidden')
-        currentMenu = sectionContents[1]
-        console.log(currentMenu)
-      }
-      if (dataName == "3") {
-        console.log('없어져라!')
-        console.log(sectionContents[2])
-        sectionContents[2].classList.remove('hidden')
-        currentMenu = sectionContents[2]
-        console.log(currentMenu)
-      }
-      if (dataName == "4") {
-        console.log('없어져라!')
-        console.log(sectionContents[3])
-        sectionContents[3].classList.remove('hidden')
-        currentMenu = sectionContents[3]
-        console.log(currentMenu)
-      }
-      if ('mouseover' !== sectionContents[0,1,2,3]) {
-        setTimeout(
-          function () {
-            console.log('yes')
-              console.log('yes2')
-              currentMenu.classList.add('hidden')
-          }, 5000);
+      for (var i = 1; i < 5; i++) {
+        console.log("good")
+        if (dataName == dict[i]) {
+          console.log('tlfgod')
+          console.log(sectionContents[i - 1])
+          sectionContents[i - 1].classList.remove('hidden')
+          currentMenu = sectionContents[i - 1]
+          console.log(currentMenu)
+
+        }
       }
     }
 
-    menu.addEventListener('click', onMouseOver)
+    menu.addEventListener('mouseover', onMouseOver)
 
   </script>
 </body>
