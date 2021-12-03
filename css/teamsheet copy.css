@@ -101,7 +101,7 @@ body{
   text-align: center;
 }
 .mainTitle {
-  
+  border:none;
   font-size: xx-large;
   padding: 14px 16px;
   background-color: inherit;
