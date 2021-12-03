@@ -8,19 +8,18 @@
     <style>
 
     .container {
-        margin-top: 250px;
-        display: flex;
-        flex-direction: row;
+        display: grid;
         justify-content: center;
         align-items: center;
-
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding-top: 350px;
+        padding-left: 180px;
         }
 
     #circle {
-            width: 250px;
-            height: 250px; 
+            width: 200px;
+            height: 200px; 
             border-radius: 50%;
-            margin: 70px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -28,36 +27,35 @@
             border: 1px solid black;
         }
 
+    
+
+    @media screen and (max-width: 768px) {
+    }
+
     #circle:hover {
         box-shadow: 1px 1px 20px black;
         transition: box-shadow 0.3s ease-in-out;
     }
-
-    #circle::after{
-        width: 250px;
-        height: 250px;
-        content: "";
-        background-image: url("사진/파이.png");
-        z-index: -3;
-        left: 8px;
+    .teamface {
+        width: 200%;
+    
     }
-
     </style>
 </head>
 <body>
     <div class="container">
 
         <div id="circle">
-            <img src="사진/파이.png" style="width: 500px;">
+            <img class="teamface" src="사진/파이.png">
         </div>
         <div id="circle">
-            <img src="사진/드림.png" style="width: 500px;">
+            <img class="teamface" src="사진/드림.png">
         </div>
         <div id="circle">
-            <img src="사진/티미.png" style="width: 500px;">
+            <img class="teamface" src="사진/티미.png">
         </div>
         <div id="circle">
-            <img src="사진/로하.png" style="width: 500px;">
+            <img class="teamface" src="사진/로하.png">
         </div>
     
     </div>
