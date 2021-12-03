@@ -1,0 +1,29 @@
+body {
+    margin: 0px;
+    background-color: black;
+}
+#container {
+    display: flex;
+    align-items: center;
+    padding: 5vw;
+}
+#leftStick {
+    background-color: white;
+    border-radius: 20px;
+    height: 650px;
+    width: 10px;
+
+}
+#rightStick {
+    background-color: white;
+    height: 10px;
+    width: 100vw;
+}
+#rotatingBooks {
+    height: 500px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-image: url(a1c06f28469a4bd9a72f65c49cc663cf.jpeg);
+    background-size:111%;
+    background-position: 100%;
+}
