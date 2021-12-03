@@ -20,9 +20,12 @@
             width: 250px;
             height: 250px; 
             border-radius: 50%;
-            background: blue;
-            margin: 70px;   
-
+            margin: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            border: 1px solid black;
         }
 
     #circle:hover {
@@ -30,19 +33,33 @@
         transition: box-shadow 0.3s ease-in-out;
     }
 
+    #circle::after{
+        width: 250px;
+        height: 250px;
+        content: "";
+        background-image: url("사진/파이.png");
+        z-index: -3;
+        left: 8px;
+    }
+
     </style>
 </head>
 <body>
     <div class="container">
 
-        <div img="circle" scr="/images/드림.png"></div>
-        <div id="circle"></div>
-        <div id="circle"></div>
-        <div id="circle"></div>
+        <div id="circle">
+            <img src="사진/파이.png" style="width: 500px;">
+        </div>
+        <div id="circle">
+            <img src="사진/드림.png" style="width: 500px;">
+        </div>
+        <div id="circle">
+            <img src="사진/티미.png" style="width: 500px;">
+        </div>
+        <div id="circle">
+            <img src="사진/로하.png" style="width: 500px;">
+        </div>
     
     </div>
-
-    
-    
 </body>
 </html>
