@@ -85,7 +85,7 @@ body {
   animation: _color 3s 1.6s forwards;
 }
 .__2 {
-  animation: _color 3s 3.2s forwards;
+  animation: _color 3s 3.15s forwards;
 }
 .__3 {
   animation: _color 3s 5.1s forwards;
@@ -100,7 +100,7 @@ background-color: black;
   }
 }
 .__4 {
-  animation: _color 3s 2.45s forwards;
+  animation: _color 3s 2.4s forwards;
 }
 .__5 {
   animation: _color 3s 4s forwards;
@@ -116,7 +116,7 @@ background-color: black;
   animation: slideup 3s 1.6s forwards;
 }
 ._2 {
-  animation: slideup 3s 3.2s forwards;
+  animation: slideup 3s 3.15s forwards;
 }
 ._3 {
   animation: slideup 3s 5.1s forwards;
@@ -136,7 +136,7 @@ background-color: black;
   }
 }
 ._4 {
-  animation: slideup 3s 2.45s forwards;
+  animation: slideup 3s 2.4s forwards;
 }
 ._5 {
   animation: slideup 3s 4s forwards;
