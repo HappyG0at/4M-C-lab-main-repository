@@ -288,9 +288,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    /* padding-top: 350px;
-    padding-left: 180px; */
 }
 
 #circle {
@@ -335,7 +332,8 @@ body{
     right: 50px;
 }
 
-#card {
-    display: flex;
-    flex-direction: row;
+.card {
+    /* display: flex;
+    flex-direction: column; */
+    margin:20px
 }
