@@ -37,7 +37,7 @@ body{
   font-family: 'NanumBarunGothic', sans-serif
 }
 #MV {
-  /* z-index: -100; */
+  z-index: -100;
   position: absolute;
   width: 100vw;
   overflow: hidden;
