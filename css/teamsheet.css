@@ -278,5 +278,64 @@ body{
   ._6 {
     animation: slideup 3s 7.1s forwards;
   }
-  
-  
+
+/* _____________________
+
+  타임라인 css
+   _____________________*/
+
+  .teamContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* padding-top: 350px;
+    padding-left: 180px; */
+}
+
+#circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 768px) {}
+
+#circle:hover {
+    box-shadow: 1px 1px 20px black;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.teamface {
+    width: 200%;
+}
+
+.button1 {
+    position: relative;
+    right: 50px;
+}
+
+.button2 {
+    position: relative;
+    right: 50px;
+}
+
+.button3 {
+    position: relative;
+    right: 50px;
+}
+
+.button4 {
+    position: relative;
+    right: 50px;
+}
+
+#card {
+    display: flex;
+    flex-direction: row;
+}

@@ -7,13 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .container {
-            display: grid;
+        .teamContainer {
+            display: flex;
             justify-content: center;
             align-items: center;
             grid-template-columns: 1fr 1fr 1fr 1fr;
-            padding-top: 350px;
-            padding-left: 180px;
+            /* padding-top: 350px;
+            padding-left: 180px; */
         }
 
         #circle {
@@ -58,16 +58,15 @@
             right: 50px;
         }
 
-        #card{
+        #card {
             display: flex;
             flex-direction: row;
         }
-
     </style>
 </head>
 
 <body>
-    <div class="container">
+    <div class="teamContainer">
 
         <div class="card">
             <div id="circle">
@@ -77,21 +76,21 @@
             <input type="button" value="파이 개인 웹페이지 이동" onclick="alert('링크 첨부');" />
         </div>
 
-                    <div class="card">
-                        <div id="circle">
-                            <img class="teamface" src="사진/드림.png">
-                        </div>
-                        <a><br><br>안녕하세요. 저는 드림입니다.<br>asdlfjalkjdslfkjaslkdjfadkls;jf<br></a>
-                        <input type="button" value="드림 개인 웹페이지 이동" onclick="alert('링크 첨부');" />
-                    </div>
+        <div class="card">
+            <div id="circle">
+                <img class="teamface" src="사진/드림.png">
+            </div>
+            <a><br><br>안녕하세요. 저는 드림입니다.<br>asdlfjalkjdslfkjaslkdjfadkls;jf<br></a>
+            <input type="button" value="드림 개인 웹페이지 이동" onclick="alert('링크 첨부');" />
+        </div>
 
-                                    <div class="card">
-                                        <div id="circle">
-                                            <img class="teamface" src="사진/티미.png">
-                                        </div>
-                                        <a><br><br>안녕하세요. 저는 티미입니다.<br>asdlfjalkjdslfkjaslkdjfadkls;jf<br></a>
-                                        <input type="button" value="티미 개인 웹페이지 이동" onclick="alert('링크 첨부');" />
-                                    </div>
+        <div class="card">
+            <div id="circle">
+                <img class="teamface" src="사진/티미.png">
+            </div>
+            <a><br><br>안녕하세요. 저는 티미입니다.<br>asdlfjalkjdslfkjaslkdjfadkls;jf<br></a>
+            <input type="button" value="티미 개인 웹페이지 이동" onclick="alert('링크 첨부');" />
+        </div>
 
         <div class="card">
             <div id="circle">
@@ -100,6 +99,7 @@
             <a><br><br>안녕하세요. 저는 로하입니다.<br>asdlfjalkjdslfkjaslkdjfadkls;jf<br></a>
             <input type="button" value="로하 개인 웹페이지 이동" onclick="alert('링크 첨부');" />
         </div>
+    </div>
 
 
     <script type="text/JavaScript1">
