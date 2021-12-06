@@ -5,7 +5,8 @@ body {
     display: flex;
     align-items: center;
     background-color: white;
-    height:100%;
+    height:720px;
+    margin-top: 100px;
 }
 #left {
     width: 7%;
@@ -53,8 +54,8 @@ body {
 }
 @keyframes slidein {
   from {
-
     width: 0%;
+    
   }
 
   to {
@@ -81,7 +82,8 @@ body {
 .up {
   height: 50%;
   width: 100%;
-}.__1 {
+}
+.__1 {
   animation: _color 3s 1.6s forwards;
 }
 .__2 {
