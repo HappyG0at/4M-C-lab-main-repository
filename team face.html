@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-
-    .container {
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        padding-top: 350px;
-        padding-left: 180px;
+        .container {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            padding-top: 350px;
+            padding-left: 180px;
         }
 
-    #circle {
+        #circle {
             width: 200px;
-            height: 200px; 
+            height: 200px;
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -27,43 +27,106 @@
             border: 1px solid black;
         }
 
-    @media screen and (max-width: 768px) {
-    }
+        @media screen and (max-width: 768px) {}
 
-    #circle:hover {
-        box-shadow: 1px 1px 20px black;
-        transition: box-shadow 0.3s ease-in-out;
-    }
-    .teamface {
-        width: 200%;
-    }
-    
+        #circle:hover {
+            box-shadow: 1px 1px 20px black;
+            transition: box-shadow 0.3s ease-in-out;
+        }
+
+        .teamface {
+            width: 200%;
+        }
+
+        .button1 {
+            position: relative;
+            right: 50px;
+        }
+
+        .button2 {
+            position: relative;
+            right: 50px;
+        }
+
+        .button3 {
+            position: relative;
+            right: 50px;
+        }
+
+        .button4 {
+            position: relative;
+            right: 50px;
+        }
+
+        #card{
+            display: flex;
+            flex-direction: row;
+        }
+
     </style>
 </head>
+
 <body>
     <div class="container">
 
-        <div id="circle">
-            <img class="teamface" src="사진/파이.png">
+        <div class="card">
+            <div id="circle">
+                <img class="teamface" src="사진/파이.png">
+            </div>
+            <a><br><br>안녕하세요. 저는 파이입니다.<br>asdljfalsdjlkfjsadklfjalksdja;f<br></a>
+            <input type="button" value="파이 개인 웹페이지 이동" onclick="alert('링크 첨부');" />
         </div>
-        <div id="circle">
-            <img class="teamface" src="사진/드림.png">
-        </div>
-        <div id="circle">
-            <img class="teamface" src="사진/티미.png">
-        </div>
-        <div id="circle">
-            <img class="teamface" src="사진/로하.png">
-        </div>
-    
-        <a><br><br>안녕하세요. 저는 파이입니다.<br>asdlfjalkjdslfkjaslkdjfadkls;jf</a>
-        <a><br><br>안녕하세요. 저는 드림입니다.<br>asdlfjalkjdslfkjaslkdjfadkls;jf</a>
-        <a><br><br>안녕하세요. 저는 티미입니다.<br>asdlfjalkjdslfkjaslkdjfadkls;jf</a>
-        <a><br><br>안녕하세요. 저는 로하입니다.<br>asdlfjalkjdslfkjaslkdjfadkls;jf</a>
 
-    </div>
+                    <div class="card">
+                        <div id="circle">
+                            <img class="teamface" src="사진/드림.png">
+                        </div>
+                        <a><br><br>안녕하세요. 저는 드림입니다.<br>asdlfjalkjdslfkjaslkdjfadkls;jf<br></a>
+                        <input type="button" value="드림 개인 웹페이지 이동" onclick="alert('링크 첨부');" />
+                    </div>
 
-    
+                                    <div class="card">
+                                        <div id="circle">
+                                            <img class="teamface" src="사진/티미.png">
+                                        </div>
+                                        <a><br><br>안녕하세요. 저는 티미입니다.<br>asdlfjalkjdslfkjaslkdjfadkls;jf<br></a>
+                                        <input type="button" value="티미 개인 웹페이지 이동" onclick="alert('링크 첨부');" />
+                                    </div>
+
+        <div class="card">
+            <div id="circle">
+                <img class="teamface" src="사진/로하.png">
+            </div>
+            <a><br><br>안녕하세요. 저는 로하입니다.<br>asdlfjalkjdslfkjaslkdjfadkls;jf<br></a>
+            <input type="button" value="로하 개인 웹페이지 이동" onclick="alert('링크 첨부');" />
+        </div>
+
+
+    <script type="text/JavaScript1">
+        fuction a( {
+            alert('1');
+        }
+    </script>
+
+
+    <script type="text/JavaScript2">
+        fuction a( {
+            alert('1');
+        }
+    </script>
+
+    <script type="text/JavaScript3">
+        fuction a( {
+            alert('1');
+        }
+    </script>
+
+    <script type="text/JavaScript4">
+        fuction a( {
+            alert('1');
+        }
+    </script>
 
 </body>
+
 </html>
