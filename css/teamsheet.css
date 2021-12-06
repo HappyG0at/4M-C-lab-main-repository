@@ -129,7 +129,7 @@ body{
   타임라인 css
    _____________________*/
 
-.container {
+.my-container {
     display: flex;
     align-items: center;
     background-color: white;

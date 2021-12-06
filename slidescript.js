@@ -1,7 +1,7 @@
 //변수지정
-var sliderWrapper = document.getElementsByClassName('container'), //클래스명 container
-    sliderContainer = document.getElementsByClassName('slider-container'), //클래스명 sliderContainer
-    slides = document.getElementsByClassName('slide'), //클래스명 slides
+var sliderWrapper = document.getElementsByClassName('my-container'), //클래스명 container
+    sliderContainer = document.getElementsByClassName('my-slider-container'), //클래스명 sliderContainer
+    slides = document.getElementsByClassName('my-slide'), //클래스명 slides
     slideCount = slides.length, //슬라이드 개수
     currentIndex = 0, //현재 슬라이드
     topHeight = 0, //가장 높은 슬라이드의 높이를 부모의 높이로 지정
