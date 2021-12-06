@@ -1,25 +1,26 @@
 * {margin:0; padding:0;}
 
-li {list-style: none;}
-a {text-decoration: none;}
-
 body {
   margin-top: 250px;
   font: 20px/1.5 "Helvetica", Arial, sans-serif;
 }
 
-.container {
+li {list-style: none;}
+a {text-decoration: none;}
+
+
+.my-container {
   position: relative;
   width: 100%;
   overflow: hidden;
 }
 
-.slider-container{
+.my-slider-container{
   position: absolute;
   width: 100%;
 }
 
-.slide{
+.my-slide{
   position: absolute;
   width: 100%;
   padding: 0 10%;
@@ -31,7 +32,7 @@ body {
   color: black;
 }
 
-.slider-container.animated{
+.my-slider-container.animated{
   -webkit-transition: left .3s ease-in;
   transition: left .3s ease-in;
 }
