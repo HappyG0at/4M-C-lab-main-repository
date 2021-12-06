@@ -80,10 +80,10 @@ cite{
 
 #prev.disabled, #next.disabled {display: none;}
 
-#prev{ background-image: url('arrow_left_out.png'); margin-left:-480px; }
+#prev{ background-image: url('arrow_left_out.png'); margin-left:-580px; }
 
 #prev:hover{ background-image: url('arrow_left_over.png');}
 
-#next{ background-image: url('arrow_right_out.png');  margin-left: 380px;}
+#next{ background-image: url('arrow_right_out.png');  margin-left: 480px;}
 
 #next:hover{ background-image: url('arrow_right_over.png');}
