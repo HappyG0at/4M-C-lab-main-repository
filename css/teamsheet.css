@@ -37,7 +37,7 @@ body{
   font-family: 'NanumBarunGothic', sans-serif
 }
 #MV {
-  z-index: -100;
+  /* z-index: -100; */
   position: absolute;
   width: 100vw;
   overflow: hidden;
@@ -94,13 +94,14 @@ body{
   background-color: grey;
   color: white;
 }
-.subnav:hover .subnav-content {
+
+.subnavbtn:hover .subnav-content {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   height: 4em;
-  z-index: 1;
+  z-index: 1000;
   position: absolute;
   left: 0;
   background-color:khaki;

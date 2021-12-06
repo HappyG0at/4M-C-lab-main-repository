@@ -53,8 +53,8 @@ body {
 }
 @keyframes slidein {
   from {
-
     width: 0%;
+    
   }
 
   to {
@@ -81,7 +81,8 @@ body {
 .up {
   height: 50%;
   width: 100%;
-}.__1 {
+}
+.__1 {
   animation: _color 3s 1.6s forwards;
 }
 .__2 {
