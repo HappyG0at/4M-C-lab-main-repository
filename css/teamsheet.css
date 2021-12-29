@@ -94,8 +94,10 @@ body{
   background-color: grey;
   color: white;
 }
-
-.subnavbtn:hover .subnav-content {
+.subnav-content {
+  z-index: 10000;
+}
+.subnavbtn:hover > .subnav-content {
   display: flex;
   align-items: center;
   justify-content: center;

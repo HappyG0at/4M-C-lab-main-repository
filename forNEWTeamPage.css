@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    scroll-snap-type: y mandatory;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+#menubar {
+    width: 100%;
+    height: 11vh;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20vw 0 20vw;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+}
+.fiveLink {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100%
+}
+.fiveLink:hover {
+    background-color: rgb(226, 224, 118);
+}
+.section {
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: end;
+    padding-top: 11vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.TEAM {
+    background-color: skyblue;
+}
+.MEMBER {
+    background-color:turquoise
+}
+.PROJECT {
+    background-color:wheat
+}
+.TIMELINE {
+    background-color:yellowgreen
+}
+.sectionHeader {
+    position: absolute;
+    top: 25vh;
+    left: 10vw;
+}
+#teamMember {
+    width: 80%;
+    height: 40%;
+    margin-top: 12vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fourPeeps {
+    width: 24%;
+    height: 90%;
+    box-shadow: black 0px 0px 3px 1px inset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.fourPeeps:hover > .grey{
+    display: flex;
+    box-shadow: black 0px 0px 3px 1px;
+}
+.fourPeeps:hover{
+    box-shadow: none;
+}
+.grey {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    display: none;display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+.MILink {
+    height: 2vw;
+    width: 10vw;
+    background-color: white;
+    border-radius: 2vw;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
