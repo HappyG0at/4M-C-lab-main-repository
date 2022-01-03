@@ -2,6 +2,10 @@ body {
     margin: 0;
     scroll-snap-type: y mandatory;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
 ::-webkit-scrollbar {
     display: none;
 }
@@ -43,20 +47,16 @@ body {
 }
 .TEAM {
     background-color: skyblue;
+    font-size: xx-large;
 }
 .MEMBER {
     background-color:turquoise
-}
-.PROJECT {
-    background-color:wheat
-}
-.TIMELINE {
-    background-color:yellowgreen
 }
 .sectionHeader {
     position: absolute;
     top: 25vh;
     left: 10vw;
+    font-size: xx-large;
 }
 #teamMember {
     width: 80%;
@@ -148,4 +148,167 @@ body {
     align-items: center;
     flex-direction: column;
     overflow: hidden;
+}
+.PROJECT {
+    background-color:wheat
+}
+.TIMELINE {
+    background-color:white
+}
+.container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+#left {
+    width: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#right {
+    width:86%;
+    height: 820px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.surround {
+  display: flex;
+  height: 100%;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 4%;
+}
+.surround2 {
+  display: flex;
+  height: 100%;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20%;
+}
+#leftStick {
+    background-color: black;
+    border-radius: 20px;
+    height: 650px;
+    width: 10px;
+}
+.rightStick {
+    background-color: black;
+    height:3%;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    animation: slidein 10s cubic-bezier(.3, 0, .3, 1);
+}
+@keyframes slidein {
+  from {
+    width: 0%;
+    
+  }
+
+  to {
+
+    width: 100%;
+  }
+}
+.sticks {
+  height: 100%;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.sticks1 {
+  height: 100%;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.up {
+  height: 50%;
+  width: 100%;
+  color: white;
+  font-size: xx-large;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.explain {
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.__1 {
+  animation: _color 3s 1.6s forwards;
+}
+.__2 {
+  animation: _color 3s 3.15s forwards;
+}
+.__3 {
+  animation: _color 3s 5.1s forwards;
+}
+@keyframes _color {
+  0% {
+background-color:white;
+  }
+
+  100% {
+background-color: black;
+  }
+}
+.__4 {
+  animation: _color 3s 2.4s forwards;
+}
+.__5 {
+  animation: _color 3s 4s forwards;
+}
+.__6 {
+  animation: _color 3s 7.1s forwards;
+}
+.bStick {
+    height: 30%;
+    width: 10px;
+}
+._1 {
+  animation: slideup 3s 1.6s forwards;
+}
+._2 {
+  animation: slideup 3s 3.15s forwards;
+}
+._3 {
+  animation: slideup 3s 5.1s forwards;
+}
+@keyframes slideup {
+  from {
+    background-color: transparent;
+    height: 0%;
+  }
+  1% {
+    background-color: black;
+  }
+
+  to {
+    background-color: black;
+    height: 30%;
+  }
+}
+._4 {
+  animation: slideup 3s 2.4s forwards;
+}
+._5 {
+  animation: slideup 3s 4s forwards;
+}
+._6 {
+  animation: slideup 3s 7.1s forwards;
 }
