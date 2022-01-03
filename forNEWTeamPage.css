@@ -2,6 +2,10 @@ body {
     margin: 0;
     scroll-snap-type: y mandatory;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
 ::-webkit-scrollbar {
     display: none;
 }
