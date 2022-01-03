@@ -105,7 +105,7 @@ a {
     justify-content: center;
 }
 
-/* 프로젝트  */
+/* 프로젝트 네이밍 작업 */
 
 .BIGPROJECT {
     font-size: 30pt;
@@ -120,6 +120,10 @@ a {
 .PROJECTW {
     font-weight: 200;
 }
+
+
+
+/* 여기까지 dream */
 
 .TIMELINE {
     background-color:white
