@@ -104,7 +104,6 @@ a {
     align-items: center;
     justify-content: center;
 }
-<<<<<<< HEAD
 
 /* 프로젝트  */
 
@@ -120,10 +119,8 @@ a {
 
 .PROJECTW {
     font-weight: 200;
-=======
-.PROJECT {
-    background-color:wheat
 }
+
 .TIMELINE {
     background-color:white
 }
@@ -283,5 +280,4 @@ background-color: black;
 }
 ._6 {
   animation: slideup 3s 7.1s forwards;
->>>>>>> 56ab946500fab94e4e86293a31d188f13748e632
 }
