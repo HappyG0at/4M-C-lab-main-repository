@@ -108,3 +108,19 @@ a {
     align-items: center;
     justify-content: center;
 }
+
+/* 프로젝트  */
+
+.BIGPROJECT {
+    font-size: 30pt;
+    justify-content: center;
+    align-items: center;
+}
+
+.PROJECTI {
+    font-weight: 400;
+}
+
+.PROJECTW {
+    font-weight: 200;
+}
