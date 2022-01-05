@@ -1,6 +1,13 @@
+@font-face {
+  font-family: 'NanumSquareRound';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 body {
     margin: 0;
     scroll-snap-type: y mandatory;
+    font-family: 'NanumSquareRound';
 }
 a {
     text-decoration: none;
@@ -12,7 +19,7 @@ a {
 #menubar {
     width: 100%;
     height: 11vh;
-    background-color: antiquewhite;
+    background-color: khaki;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,13 +32,21 @@ a {
 }
 .fiveLink {
     flex: 1;
+    font-size: x-large;
     display: flex;
     align-items: center;
     justify-content: center;
     height:100%
 }
 .fiveLink:hover {
-    background-color: rgb(226, 224, 118);
+    background-color: rgb(134, 134, 68);
+    color: rgb(226, 224, 118);
+}
+.fiveLink:hover > a {
+  color: khaki;
+}
+.Title {
+  font-size: xx-large;
 }
 .section {
     width: 100%;
@@ -46,17 +61,23 @@ a {
     position: relative;
 }
 .TEAM {
-    background-color: skyblue;
+    background-color:khaki;
     font-size: xx-large;
 }
 .MEMBER {
-    background-color:turquoise
+    background-color:rgb(243, 243, 188);
 }
 .sectionHeader {
     position: absolute;
     top: 25vh;
     left: 10vw;
     font-size: xx-large;
+}
+#sectionHeader {
+  position: absolute;
+  top: 30vh;
+  left: 10vw;
+  font-size: large;
 }
 #teamMember {
     width: 80%;
@@ -75,11 +96,12 @@ a {
     position: relative;
 }
 .fourPeeps:hover > .grey{
-    display: flex;
-    box-shadow: black 0px 0px 3px 1px;
-}
+    display: flex;}
 .fourPeeps:hover{
     box-shadow: none;
+}
+.MIInfo {
+  text-align: center;
 }
 .grey {
     position: absolute;
@@ -104,39 +126,22 @@ a {
     align-items: center;
     justify-content: center;
 }
-<<<<<<< HEAD
 
-<<<<<<< HEAD
 /* 프로젝트 네이밍 작업 */
-=======
 
-
-
-
-
-
-
-
-
-
-
-
-
-=======
->>>>>>> 94375bbdd77b66d4cac5bc8cd0a509f297fce0e7
 #slogunBoxUp{
     width: 100%;
     height: 50%;
-    background: yellow;
+    background: khaki;
 }
 
 #slogunText{
-    color: yellow;
+    color: khaki;
     font-size: 100px;
     position: fixed;
     text-align: center;
     mix-blend-mode: difference;
-    padding-top: 12px;
+    padding-top: 1px;
 
 }
 
@@ -159,7 +164,6 @@ a {
 
 
 /* 프로젝트  */
->>>>>>> 07c806e90c330b5ddea66e9af50ccddcf32aa19a
 
 .BIGPROJECT {
     font-size: 30pt;
@@ -175,7 +179,7 @@ a {
     font-weight: 200;
 }
 .PROJECT {
-    background-color:wheat
+    background-color:rgb(248, 248, 193);
 }
 
 
@@ -183,7 +187,7 @@ a {
 /* 여기까지 dream */
 
 .TIMELINE {
-    background-color:white
+    background-color:rgb(243, 243, 188);
 }
 .container {
     display: flex;
@@ -265,7 +269,7 @@ a {
 .up {
   height: 50%;
   width: 100%;
-  color: white;
+  color: rgb(243, 243, 188);
   font-size: xx-large;
   display: flex;
   flex-direction: column;
@@ -290,7 +294,7 @@ a {
 }
 @keyframes _color {
   0% {
-background-color:white;
+background-color:rgb(226, 224, 118);
   }
 
   100% {
