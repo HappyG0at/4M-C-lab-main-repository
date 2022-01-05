@@ -104,11 +104,6 @@ a {
     align-items: center;
     justify-content: center;
 }
-<<<<<<< HEAD
-
-<<<<<<< HEAD
-/* 프로젝트 네이밍 작업 */
-=======
 
 
 
@@ -122,8 +117,7 @@ a {
 
 
 
-=======
->>>>>>> 94375bbdd77b66d4cac5bc8cd0a509f297fce0e7
+
 #slogunBoxUp{
     width: 100%;
     height: 50%;
@@ -159,7 +153,6 @@ a {
 
 
 /* 프로젝트  */
->>>>>>> 07c806e90c330b5ddea66e9af50ccddcf32aa19a
 
 .BIGPROJECT {
     font-size: 30pt;
@@ -177,10 +170,6 @@ a {
 .PROJECT {
     background-color:wheat
 }
-
-
-
-/* 여기까지 dream */
 
 .TIMELINE {
     background-color:white
@@ -228,12 +217,12 @@ a {
     width: 10px;
 }
 .rightStick {
-  background-color: black;
-  height:3%;
-  width: 100%;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  animation: slidein 10s cubic-bezier(.3, 0, .3, 1);
+    background-color: black;
+    height:3%;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    animation: slidein 10s cubic-bezier(.3, 0, .3, 1);
 }
 @keyframes slidein {
   from {
